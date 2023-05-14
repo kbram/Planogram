@@ -1,0 +1,8 @@
+composer create-project laravel/laravel autohydro
+composer require laravel/ui
+php artisan ui:auth
+
+set DB_DATABASE
+change db data in env
+php artisan migrate
+php artisan ui bootstrap

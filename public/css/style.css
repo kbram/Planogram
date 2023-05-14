@@ -1,0 +1,60 @@
+.bay{
+     height:150px;
+     border-bottom:10px solid #cfcdcd;
+     border-left:5px solid #cfcdcd;
+     border-right:5px solid #cfcdcd;
+}
+.topImage{
+     position: absolute;
+     height: 60px;
+     width: 85%;
+     
+}
+.bayTrack{
+     margin-top: 60px;
+     margin-right:7%;
+     margin-left:7%;
+     border-bottom:20px solid #ec745c;
+     border-left:5px solid #cfcdcd;
+     border-right:5px solid #cfcdcd;
+}
+.productsTab{
+  margin-top: 0px;
+     height:800px;
+     overflow: scroll;
+     background-color: #ffdad3;
+}
+::-webkit-scrollbar {
+     width: 4px;
+   }
+     ::-webkit-scrollbar-track {
+     background: #f1f1f1; 
+   }
+     ::-webkit-scrollbar-thumb {
+     background: #ec745c; 
+       border-radius:10px;
+   }
+   ::-webkit-scrollbar-thumb:hover {
+     
+     background: #555; 
+   } 
+
+   .productsTitle{
+     font-size: 26px;
+     font-weight: 800;
+     align-self: center;
+     color: #f25f42;
+     margin-top: 10px;
+     margin-bottom: 20px;
+   }
+   .productsTitle2{
+    font-size: 26px;
+    font-weight:800;
+    align-self: center;
+    position: absolute;
+    z-index: 15555;
+    margin-bottom: 50px;
+  }
+  .aisle{
+    margin-top: 70px;
+  }
